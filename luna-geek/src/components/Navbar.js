@@ -9,12 +9,12 @@ const Navbar = () => (
       <img height="100px" alt="luna geek logo" src="./logo.svg" />
     </NavLink>
     {/* Signin Link */}
-    <NavLink className="navlink" to="/signin">
+    <NavLink activeClassName="active" className="navlink" to="/signin">
       Sign In
     </NavLink>
 
     {/* Signin Link */}
-    <NavLink className="navlink" to="/signup">
+    <NavLink activeClassName="active" className="navlink" to="/signup">
       Sign Up
     </NavLink>
   </div>
