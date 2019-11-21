@@ -1,5 +1,6 @@
 :root {
   --brandYellow: #ffcc00;
+  --brandBackground: #f9f9f9;
   --brandGrey: #232528;
   --brandBlack: #000000;
   --brandPink: #ff3399;
@@ -10,11 +11,13 @@ body {
   margin: 0px;
   font-family: "Nunito Sans", Arial, Helvetica, sans-serif !important;
   color: var(--brandGrey);
+  background-color: var(--brandBackground) !important;
 }
 
 .title {
   color: var(--brandPink);
   text-transform: unset;
+  font-family: "EB Garamond", serif;
 }
 
 .navbar {

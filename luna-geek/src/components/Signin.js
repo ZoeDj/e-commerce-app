@@ -1,8 +1,18 @@
 import React from "react";
+import Title from "./Title";
 
 class Signin extends React.Component {
   render() {
-    return <div>Signin</div>;
+    return (
+      <React.Fragment>
+        <div className="py-5">
+          <div className="container">
+            <Title name="Sign In" />
+          </div>
+          <div className="row"></div>
+        </div>
+      </React.Fragment>
+    );
   }
 }
 
