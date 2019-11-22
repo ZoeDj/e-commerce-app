@@ -15,7 +15,7 @@ body {
 }
 
 .title {
-  color: var(--brandPink);
+  color: var(--brandBlack);
   text-transform: unset;
   font-family: "EB Garamond", serif;
 }

@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar";
 import ProductList from "./ProductList";
 import Details from "./Details";
-import Card from "./Card";
+import Card from "./Cart";
 import Default from "./Default";
 import Signin from "./Signin";
 import Signup from "./Signup";
