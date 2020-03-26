@@ -10,7 +10,7 @@ const Navbar = () => (
       <img
         height="100px"
         alt="luna geek logo"
-        src="./logo.svg"
+        src="./luna-geek-logo.png"
         className="navbar-brand"
       />
     </NavLink>
@@ -18,8 +18,9 @@ const Navbar = () => (
       <li className="nav-item ml-5">
         <NavLink to="/">Products</NavLink>
       </li>
-      <li className="nav-item ml-5"></li>
-
+      <li className="nav-item ml-5">
+        <NavLink to="about/">About</NavLink>
+      </li>
       <li className="nav-item ml-5">
         {/* Signin Link */}
         <NavLink activeClassName="active" to="/signin">

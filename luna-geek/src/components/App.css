@@ -1,39 +1,41 @@
 :root {
-  --brandYellow: #ffcc00;
-  --brandBackground: #f9f9f9;
+  --brandBlue: #1b71b8;
+  --brandBackground: #facbcd;
   --brandGrey: #232528;
   --brandBlack: #000000;
-  --brandPink: #ff3399;
+  --brandPink: #facbcd;
+  --brandAqua: #a2dcf3;
+  --brandRed: #ed4748;
 }
 
 html,
 body {
   margin: 0px;
   font-family: "Nunito Sans", Arial, Helvetica, sans-serif !important;
-  color: var(--brandGrey);
+  color: var(--brandBlue);
   background-color: var(--brandBackground) !important;
 }
 
 .title {
-  color: var(--brandBlack);
+  color: var(--brandRed);
   text-transform: unset;
   font-family: "EB Garamond", serif;
 }
 
 .navbar {
-  background-color: var(--brandYellow);
+  background-color: var(--brandBlue);
 }
 
 a,
 a:link,
 a:visited {
   text-decoration: none !important;
-  color: var(--brandBlack) !important;
+  color: var(--brandBackground) !important;
   font-size: 24px;
 }
 
 a:hover {
-  color: white !important;
+  color: var(--brandPink) !important;
 }
 
 /* .active {
@@ -42,4 +44,5 @@ a:hover {
 
 .fa-shopping-bag {
   font-size: 2em;
+  color: var(--brandPink);
 }
