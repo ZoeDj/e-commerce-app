@@ -10,7 +10,7 @@ const Navbar = () => (
       <img
         height="100px"
         alt="luna geek logo"
-        src="./luna-geek-logo.png"
+        src="./luna-geek.png"
         className="navbar-brand"
       />
     </NavLink>

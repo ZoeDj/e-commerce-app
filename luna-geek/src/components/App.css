@@ -1,9 +1,9 @@
 :root {
   --brandBlue: #1b71b8;
-  --brandBackground: #facbcd;
+  --brandBackground: #f2daee;
   --brandGrey: #232528;
   --brandBlack: #000000;
-  --brandPink: #facbcd;
+  --brandPink: #f2daee;
   --brandAqua: #a2dcf3;
   --brandRed: #ed4748;
 }
@@ -31,7 +31,8 @@ a:link,
 a:visited {
   text-decoration: none !important;
   color: var(--brandBackground) !important;
-  font-size: 24px;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 a:hover {
